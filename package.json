@@ -1,0 +1,17 @@
+{
+  "name": "pizza_app",
+  "version": "1.0.0",
+  "description": "This is a real time pizza appliction built using Node, Express, MongoDB and using  many other libraries and packages",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon server.js",
+    "dev": "nodemon -e ejs,js server.js"
+  },
+  "author": "Muhammad Hamaz Shoukat <dev.hamzaa@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1"
+  }
+}
