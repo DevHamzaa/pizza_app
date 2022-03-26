@@ -4,13 +4,13 @@ const router = require('./routes/web');
 const app = express();
 app.use(router);
 
-const port = process.env.PORT || 4000;
-
 // Set Template Engine
+app.use(express.static(`public`));
 app.use(eel);
 app.set('views', `${__dirname}/resources/views`);
 app.set('view engine', 'ejs');
 // Listning to the server
+const port = process.env.PORT || 4000;
 app.listen(port, () => {
     try {
         console.log(`listining to port ${port}`);
