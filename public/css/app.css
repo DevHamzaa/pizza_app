@@ -3,3 +3,74 @@ body {
   -webkit-font-smoothing: antialiased;
   color: #232323;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  padding: 20px 100px;
+}
+
+.nav_items {
+  display: flex;
+  align-items: center;
+}
+
+.nav_item {
+  display: inline;
+  margin-left: 30px;
+}
+
+.nav_item:hover {
+  color: #ba1d03;
+}
+
+#cart_btn {
+  background-color: #ff4601;
+  width: 60px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.hero {
+  background-color: #f8f8f8;
+  min-height: 90vh;
+}
+
+.hero_Btn {
+  background-color: #ff4601;
+  font-weight: bold;
+  color: #fff;
+}
+
+.pizza_Add_Btn {
+  background-color: #fff;
+  border: 2px solid #ff4601;
+  color: #232323;
+  transition: all 0.2s linear;
+}
+
+.pizza_Add_Btn:hover {
+  background-color: #ff4601;
+  color: #fff;
+}
+
+.cart {
+  background-color: #f8f8f8;
+}
+
+.btn-primary {
+  background-color: #ff4601;
+}
+
+.cart {
+  min-height: 90vh;
+}

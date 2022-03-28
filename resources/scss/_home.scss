@@ -1,0 +1,54 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    padding: 20px 100px;
+}
+.nav_items {
+    display: flex;
+    align-items: center;
+}
+.nav_item {
+    display: inline;
+    margin-left: 30px;
+}
+.nav_item:hover {
+    color: $primary-hover;
+}
+#cart_btn {
+    background-color: $primary;
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.hero {
+    background-color: $secondary;
+    min-height: 90vh;
+}
+// .hero_div {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+.hero_Btn {
+    background-color: $primary;
+    font-weight: bold;
+    color: $pure;
+}
+.pizza_Add_Btn {
+    background-color: $pure;
+    border: 2px solid $primary;
+    color: $dark;
+    transition: all 0.2s linear;
+}
+.pizza_Add_Btn:hover {
+    background-color: $primary;
+    color: $pure;
+}

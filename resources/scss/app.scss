@@ -1,6 +1,9 @@
-@import './_variables.scss';
+@import './_variables';
+
 body {
     font-family: 'Lato', sans-serif !important;
     -webkit-font-smoothing: antialiased;
     color: $dark;
 }
+@import './home';
+@import './cart';

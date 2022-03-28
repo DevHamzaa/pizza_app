@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/css/app.css" />
+        <title>Pizza App</title>
+    </head>
+    <body>
+        <nav>
+            <div>
+                <a href="/"><img src="/images/logo.png" alt="logo" /></a>
+            </div>
+            <div>
+                <ul class="nav_items">
+                    <li class="nav_item"><a href="/menu">Menu</a></li>
+                    <li class="nav_item"><a href="/offer">Offers</a></li>
+                    <li class="nav_item"><a href="/register">Register</a></li>
+                    <li class="nav_item"><a href="/login">Login</a></li>
+                    <li class="nav_item">
+                        <Button id="cart_btn"
+                            ><a href="/cart">
+                                <img
+                                    class="center"
+                                    src="/images/cart.png"
+                                    alt=""
+                                /> </a
+                        ></Button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <%- body %>
+        <script src="/js/app.js"></script>
+    </body>
+</html>
